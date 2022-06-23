@@ -7,12 +7,23 @@
     <title>AluraBooks</title>
     <link rel="stylesheet" href="./../../public/css/global.css" />
     <link rel="stylesheet" href="./../../public/css/reset.css" />
-    <!-- <link rel="stylesheet" href="./../../public/css/header.css" /> -->
+    <link rel="stylesheet" href="./../../public/css/header.css" />
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <span class="header__menu-hamburger container__image"></span>
+        <input type="checkbox" id="menu" class="container__button">
+        <label for="menu">
+          <span class="header__menu-hamburger container__image"></span>
+        </label>
+        <ul class="menu-list">
+          <li class="menu-list__title">Categorias</li>
+          <li class="menu-list__item"><a href="#" class="menu-list__link">Programação</a></li>
+          <li class="menu-list__item"><a href="#" class="menu-list__link">Front-end</a></li>
+          <li class="menu-list__item"><a href="#" class="menu-list__link">Infraestrutura</a></li>
+          <li class="menu-list__item"><a href="#" class="menu-list__link">Business</a></li>
+          <li class="menu-list__item"><a href="#" class="menu-list__link">Design & UX</a></li>
+        </ul>
         <img src="../../public/images/Logo.svg" alt="Logotipo AluraBooks" class="container__image" />
       </div>
       <div class="container">
