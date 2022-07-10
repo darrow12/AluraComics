@@ -5,18 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AluraBooks</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./../../public/css/reset.css" />
     <link rel="stylesheet" href="./../../public/css/global.css" />
     <link rel="stylesheet" href="./../../public/css/header.css" />
     <link rel="stylesheet" href="./../../public/css/banner.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../../public/css/carousel.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <input type="checkbox" id="menu" class="container__button">
+        <input type="checkbox" id="menu" class="container__button" />
         <label for="menu">
           <span class="header__menu-hamburger container__image"></span>
         </label>
@@ -40,7 +42,35 @@
     <section class="banner">
       <h2 class="banner__title">Já sabe por onde começar?</h2>
       <p class="banner__text">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
-      <input type="search" placeholder="Qual será sua próxima leitura?" class="banner__search">
+      <input type="search" placeholder="Qual será sua próxima leitura?" class="banner__search" />
     </section>
+
+    <section class="carousel">
+      <h2 class="carousel__title">Novos lançamentos</h2>
+
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="../../public/images/Acessibilidade.png" alt="Livro sobre boas práticas de Acessibilidade na Web"></div>
+          <div class="swiper-slide"><img src="../../public/images/Nodejs.png" alt="Livro sobre Node.js com APIs REST"></div>
+          <div class="swiper-slide"><img src="../../public/images/Tuning.png" alt="Livro sobre Tuning de SQL"></div>
+          <div class="swiper-slide"><img src="../../public/images/ReactNative.png" alt="Livro sobre desenvolvimento de aplicativos com React Native"></div>
+          <div class="swiper-slide"><img src="../../public/images/UX.png" alt="Livro sobre UX estratégico"></div>
+          <div class="swiper-slide"><img src="../../public/images/MetricasAgeis.png" alt="Livro sobre Métricas Ágeis"></div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../scripts/swiper.js"></script>
   </body>
 </html>
