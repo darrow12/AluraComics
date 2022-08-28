@@ -1,9 +1,9 @@
 <h1 align="center">
-AluraBooks
+AluraComics
 </h1>
 
 <p align="center">
-A website for selling books, with absolutely no resemblance to Casa do Código.
+Looking for new comic books? The AluraComics is the right place! Buy new comics of your favorite superheroes!
 </p>
 
 <p align="center">
