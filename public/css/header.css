@@ -8,7 +8,7 @@
 }
 
 .header {
-  background-color: var(--white);
+  background-color: var(--bg-800);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,16 +37,16 @@
 
 .menu-list__title, .menu-list__item {
   padding: 1rem;
-  background-color: var(--white);
+  background-color: var(--bg-700);
 }
 
 .menu-list__title {
-  color: var(--purple);
+  color: var(--purple-900);
   font-weight: 700;
 }
 
 .menu-list__link {
-  background: var(--blue-gradient);
+  background: var(--purple-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

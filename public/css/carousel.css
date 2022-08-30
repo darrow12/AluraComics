@@ -1,11 +1,11 @@
 .carousel__title {
-  color: var(--purple);
-  background-color: var(--white);
+  color: var(--purple-900);
+  background-color: var(--bg-700);
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
-  padding: 1em 0 0.5em 0;
+  padding: 1em 0 1em 0;
 }
 
 .swiper-slide img {

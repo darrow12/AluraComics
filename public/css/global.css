@@ -1,15 +1,18 @@
 /* @import url("./header.css"); */
 
-:root {
-  --background: #1C1F2A;
-  --white: #2A2D37;
-  --purple: #6949FF;
-  --blue-gradient: linear-gradient(97.54deg, #4832AE 35.49%, #6949FF 165.37%);
+:root {  
+  --white-100: #FEFCFD;
+  --white-200: #C7C7C7;
+  --bg-800: #1C1F2A;
+  --bg-700: #2A2D37;
+  --purple-900: #6949FF;
+  --purple-800: #5F4BC9;
+  --purple-gradient: linear-gradient(97.54deg, #4832AE 35.49%, #6949FF 165.37%);
   --main-font: 'Poppins', sans-serif;
 }
 
 body {
-  background: var(--background);
+  background: var(--bg-800);
   font-family: var(--main-font);
   font-size: 1rem;
   font-weight: 400;

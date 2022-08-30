@@ -1,6 +1,6 @@
 .banner {
-  background: var(--blue-gradient);
-  color: var(--white);
+  background: var(--purple-gradient);
+  color: var(--white-100);
   text-align: center;
   padding: 2.5rem 2rem;
 }
@@ -11,14 +11,15 @@
 }
 
 .banner__text {
-  font-weight: 500;
+  font-weight: 400;
   margin: 0.5rem 0 1.5rem;
+  color: var(--white-200);
 }
 
 .banner__search {
   background-color: transparent;
-  border: 1px solid var(--white);
-  color: var(--white);
+  border: 1px solid var(--white-100);
+  color: var(--white-100);
   border-radius: 24px;
   padding: 1rem;
   width: 100%;
@@ -29,7 +30,7 @@
   font-size: 14px;
   font-weight: 400;
   text-align: center;
-  color: var(--white);
+  color: var(--white-100);
   background: url("../images/search.svg") no-repeat;
   background-position: 1rem;
 }
