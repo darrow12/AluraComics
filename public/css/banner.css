@@ -30,6 +30,6 @@
   font-weight: 400;
   text-align: center;
   color: var(--white);
-  background: url("../images/Lupa.svg") no-repeat;
+  background: url("../images/search.svg") no-repeat;
   background-position: 1rem;
 }

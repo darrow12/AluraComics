@@ -1,5 +1,5 @@
 .carousel__title {
-  color: var(--orange);
+  color: var(--purple);
   background-color: var(--white);
   text-align: center;
   text-transform: uppercase;
@@ -10,6 +10,9 @@
 
 .swiper-slide img {
   width: 100%;
+  height: 10%;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 .swiper-button-prev, .swiper-button-next {

@@ -1,10 +1,10 @@
 /* @import url("./header.css"); */
 
 :root {
-  --background: #ebecee;
-  --white: #ffffff;
-  --orange: #eb9b00;
-  --blue-gradient: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+  --background: #1C1F2A;
+  --white: #2A2D37;
+  --purple: #6949FF;
+  --blue-gradient: linear-gradient(97.54deg, #4832AE 35.49%, #6949FF 165.37%);
   --main-font: 'Poppins', sans-serif;
 }
 
