@@ -24,3 +24,12 @@ Looking for new comic books? The AluraComics is the right place! Buy comics abou
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/darrow12/AluraComics?label=Repository size&color=0A3872&labelColor=041832">
 </p>
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **AluraComics**
+| :label: Tecnologias | html, css, js
+| :rocket: URL         | https://darrow12.github.io/AluraComics/src/pages
+| :fire: Desafio     | https://github.com/MonicaHillman/alurabooks
+
+![aluracomics](https://user-images.githubusercontent.com/47289706/188709474-182615dc-2d36-4355-ac0a-b78cc1d16350.png#vitrinedev)
