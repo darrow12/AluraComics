@@ -28,7 +28,7 @@ Looking for new comic books? The AluraComics is the right place! Buy comics abou
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **AluraComics**
-| :label: Tecnologias | html, css, js
+| :label: Tecnologias | html, css, javascript
 | :rocket: URL         | https://darrow12.github.io/AluraComics/src/pages
 | :fire: Desafio     | https://github.com/MonicaHillman/alurabooks
 
