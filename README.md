@@ -24,7 +24,6 @@
   [![License: MIT](https://img.shields.io/github/license/darrow12/AluraComics?color=6949FF&labelColor=1C1F2A&label=License)](https://github.com/darrow12/AluraComics/blob/main/LICENSE)
 
 <br>
-<br>
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
