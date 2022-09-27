@@ -1,7 +1,7 @@
 <div align="center" id="top">
   <!-- Logo & Basic info project -->
   <a href="https://darrow12.github.io/AluraComics/src/pages">
-    <img src="https://github.com/darrow12/AluraComics/blob/main/public/images/Logo.svg" alt="Pinguim" height="64"/>
+    <img src="https://github.com/darrow12/AluraComics/blob/main/public/images/logo.svg" alt="Logotipo da AluraComics" height="64"/>
   </a>
   
   <h3>AluraComics</h3>
