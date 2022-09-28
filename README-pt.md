@@ -30,10 +30,48 @@
 </div>
 <br>
 
+## :bulb: · Projeto
 
+A AluraComics foi inicialmente pensada em ser uma livraria (AluraBooks), com uma mera alusão à [Casa do Código](https://www.casadocodigo.com.br/), e, depois, se transformou em algo parecido como uma loja de quadrinhos.
 
- <a href='#top'>🔼 Voltar para o topo</a>
+Além disso, existem planos para a AluraComics ser algo maior no futuro!
+
+Já a base do projeto foi desenvolvida em um [curso de mobile-first](https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first) na Alura.
 
 <br>
 
-<p align="center">Desenvolvido com 💜 por <a href="https://github.com/darrow12">Darrow</a></p>
+## :rocket: · Codado em
+- HTML5
+- CSS3
+- JavaScript
+
+<br>
+
+## :sparkles: · Demo
+
+Quer ver uma demo do projeto já pronto? Ele já está no ar!
+
+Clique no link para ver: https://darrow12.github.io/AluraComics/src/pages
+
+<br>
+
+## :computer: · Layout
+
+Eu não sei quem prototipou esse layout (aliás, parabéns por ele), mas, ele veio da Alura e você pode acessá-lo clicando no botão do Figma abaixo.
+
+[![Figma badge](https://img.shields.io/badge/figma%20-%236E40C9.svg?color=000000&style=for-the-badge&logo=figma&logoColor=dark-orange)](https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?node-id=37%3A94)
+
+<br>
+
+## :label: · Licença
+
+Este projeto está sob a licença do MIT. Veja o arquivo [LICENSE](https://github.com/darrow12/AluraComics/blob/main/LICENSE) para mais detalhes.
+
+<br>
+<br>
+
+<a href='#top'>:arrow_up_small: Voltar para o topo</a>
+
+<br>
+
+<p align="center">Desenvolvido com :yellow_heart: por <a href="https://github.com/darrow12">Darrow</a></p>
