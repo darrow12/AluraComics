@@ -7,6 +7,14 @@
   display: inline-block;
 }
 
+.container__button:checked ~ .container__label > .header__menu-hamburger {
+  background-image: url(../images/white-menu.svg);
+}
+
+.container__button:checked ~ .container__label {
+  background: var(--purple-gradient);
+}
+
 .header {
   background-color: var(--bg-800);
   display: flex;
@@ -104,6 +112,25 @@
 
   .nav__button {
     display: none;
+  }
+
+  .nav__button:checked ~ .nav__label > .nav__item {
+    background: var(--purple-gradient);
+    color: var(--white-100);
+  }
+
+  .nav__item {
+    padding: 2em 1em;
+  }
+
+  .menu-list__item:hover {
+    background: var(--purple-gradient);
+  }
+
+  .menu-list__item:hover > .menu-list__link {
+    -webkit-text-fill-color: var(--white-100);
+    text-decoration: none;
+    cursor: pointer;
   }
 }
 
