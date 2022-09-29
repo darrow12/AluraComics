@@ -9,6 +9,7 @@
   --purple-800: #5F4BC9;
   --purple-gradient: linear-gradient(97.54deg, #4832AE 35.49%, #6949FF 165.37%);
   --main-font: 'Poppins', sans-serif;
+  --second-font: 'Comic Neue', cursive;
 }
 
 body {

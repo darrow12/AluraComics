@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="header">
@@ -29,14 +32,34 @@
           <li class="menu-list__title">Categorias</li>
           <li class="menu-list__item"><a href="#" class="menu-list__link">Marvel Comics</a></li>
           <li class="menu-list__item"><a href="#" class="menu-list__link">DC Comics</a></li>
-          <li class="menu-list__item"><a href="#" class="menu-list__link">Infraestrutura</a></li>
-          <li class="menu-list__item"><a href="#" class="menu-list__link">Business</a></li>
-          <li class="menu-list__item"><a href="#" class="menu-list__link">Design & UX</a></li>
+          <li class="menu-list__item"><a href="#" class="menu-list__link">Multiverso</a></li>
+          <li class="menu-list__item"><a href="#" class="menu-list__link">Crossover</a></li>
+          <li class="menu-list__item"><a href="#" class="menu-list__link">Spin-off</a></li>
         </ul>
         <img src="../../public/images/logo.svg" alt="Logotipo AluraComics" class="container__image" />
+        <h1 class="container__title">Alura<b class="container__title--bold">Comics</b></h1>
       </div>
+
+      <ul class="nav">
+        <input type="checkbox" id="nav-menu" class="nav__button">
+        <label for="nav-menu">
+          <li class="nav__item">Categorias</li>
+        </label>
+
+        <ul class="menu-list">
+          <li class="menu-list__item"><a href="#" class="menu-list__link">Marvel Comics</a></li>
+          <li class="menu-list__item"><a href="#" class="menu-list__link">DC Comics</a></li>
+          <li class="menu-list__item"><a href="#" class="menu-list__link">Multiverso</a></li>
+          <li class="menu-list__item"><a href="#" class="menu-list__link">Crossover</a></li>
+          <li class="menu-list__item"><a href="#" class="menu-list__link">Spin-off</a></li>
+        </ul>
+
+        <li class="nav__item"><a href="#" class="nav__link">Favoritos</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Minha estante</a></li>
+      </ul>
+
       <div class="container">
-        <a href="#"><img src="../../public/images/heart.svg" alt="Meus favoritos" class="container__image" /></a>
+        <a href="#"><img src="../../public/images/heart.svg" alt="Meus favoritos" class="container__image container__image--transparent" /></a>
         <a href="#"><img src="../../public/images/cart.svg" alt="Carrinho de compras" class="container__image" /></a>
         <a href="#"><img src="../../public/images/user.svg" alt="Meu perfil" class="container__image" /></a>
       </div>
@@ -165,8 +188,12 @@
     </section>
 
     <section class="contact">
-      <h2 class="contact__title">Fique por dentro das novidades!</h2>
-      <p class="contact__text">Atualizações de novos quadrinhos, promoções e outros.</p>
+
+      <div class="contact__description">
+        <h2 class="contact__title">Fique por dentro das novidades!</h2>
+        <p class="contact__text">Receba sempre atualizações de novos quadrinhos, promoções e outros.</p>
+      </div>
+
       <input type="email" placeholder="Cadastre seu e-mail" class="contact__email">
     </section>
 
@@ -174,6 +201,38 @@
 
     <footer class="footer">
       <h2 class="footer__title">AluraComics</h2>
+
+      <!-- Education -->
+      <ul class="footer-list">
+        <li class="footer-list__title">Educação</li>
+        <li class="footer-list__item"><img src="../../public/images/company/CasaDoCodigo.svg" alt="Logotipo da Casa do Código"><a href="#" class="footer-list__link">Casa do Código</a></img></li>
+        <li class="footer-list__item"><img src="../../public/images/company/Caelum.svg" alt="Logotipo da Caelum"><a href="#" class="footer-list__link">Caelum</a></img></li>
+      </ul>
+
+      <!-- Online education -->
+      <ul class="footer-list">
+        <li class="footer-list__title">Educação on-line</li>
+        <li class="footer-list__item"><img src="../../public/images/company/Alura.svg" alt="Logotipo da Alura"><a href="#" class="footer-list__link">Alura</a></img></li>
+        <li class="footer-list__item"><img src="../../public/images/company/AluraEmpresas.svg" alt="Logotipo da Alura Para Empresas"><a href="#" class="footer-list__link">Alura Para Empresas</a></img></li>
+        <li class="footer-list__item"><img src="../../public/images/company/AluraLATAM.svg" alt="Logotipo da Alura LATAM"><a href="#" class="footer-list__link">Alura LATAM</a></img></li>
+        <li class="footer-list__item"><img src="../../public/images/company/AluraStart.svg" alt="Logotipo da Alura Start"><a href="#" class="footer-list__link">Alura Start</a></img></li>
+        <li class="footer-list__item"><img src="../../public/images/company/AluraLingua.svg" alt="Logotipo da Alura Língua"><a href="#" class="footer-list__link">Alura Língua</a></img></li>
+        <li class="footer-list__item"><img src="../../public/images/company/MusicDot.svg" alt="Logotipo da MusicDot"><a href="#" class="footer-list__link">MusicDot</a></img></li>
+        <li class="footer-list__item"><img src="../../public/images/company/PM3.svg" alt="Logotipo da PM3"><a href="#" class="footer-list__link">PM3</a></img></li>
+      </ul>
+
+      <!-- Online education -->
+      <ul class="footer-list">
+        <li class="footer-list__title">Comunidade</li>
+        <li class="footer-list__item"><img src="../../public/images/company/HipstersTech.svg" alt="Logotipo do Hipsters ponto Tech"><a href="#" class="footer-list__link">Hipsters ponto Tech</a></img></li>
+        <li class="footer-list__item"><img src="../../public/images/company/ScubaDev.svg" alt="Logotipo do Scuba Dev"><a href="#" class="footer-list__link">Scuba Dev</a></img></li>
+        <li class="footer-list__item"><img src="../../public/images/company/LayersTech.svg" alt="Logotipo do Layers ponto Tech"><a href="#" class="footer-list__link">Layers ponto Tech</a></img></li>
+        <li class="footer-list__item"><img src="../../public/images/company/LikeABoss.svg" alt="Logotipo do Like a Boss"><a href="#" class="footer-list__link">Like a Boss</a></img></li>
+        <li class="footer-list__item"><img src="../../public/images/company/CarreiraSemFronteira.svg" alt="Logotipo do Carreira sem Fronteiras"><a href="#" class="footer-list__link">Carreira sem Fronteiras</a></img></li>
+        <li class="footer-list__item"><img src="../../public/images/company/HipstersJobs.svg" alt="Logotipo do Hipsters ponto Jobs"><a href="#" class="footer-list__link">Hipsters ponto Jobs</a></img></li>
+        <li class="footer-list__item"><img src="../../public/images/company/GUJ.svg" alt="Logotipo do GUJ"><a href="#" class="footer-list__link">GUJ</a></img></li>
+      </ul>
+
     </footer>
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>

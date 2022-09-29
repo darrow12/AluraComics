@@ -79,8 +79,36 @@
 }
 
 .description__image {
-  width: 162px;
+  width: 90%;
   height: 248px;
   border-radius: 5px;
   object-fit: cover;
+}
+
+@media screen and (min-width: 1024px) {
+  .carousel__title {
+    font-size: 26px;
+  }
+
+  .swiper-pagination {
+    margin: 2em 0 3em 0;
+  }
+
+  .swiper {
+    width: 60%; /* default for 1024px: 60% */
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    display: block;
+    top: 60%;
+  }
+
+  .card {
+    width: 40%;
+    margin: 2em auto;
+  }
+
+  .description__image {
+    width: 162px;
+  }
 }

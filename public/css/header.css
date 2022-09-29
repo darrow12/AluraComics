@@ -57,3 +57,52 @@
 .container__button {
   display: none;
 }
+
+.container__title, .nav {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .container__title, .container__title--bold {
+    font-family: var(--second-font);
+    font-size: 30px;
+    color: var(--white-100);
+  }
+
+  .container__title {
+    font-weight: 400;
+    display: block;
+  }
+
+  .container__title--bold {
+    font-weight: 700;
+  }
+
+  .nav {
+    display: flex;
+    color: var(--white-200);
+  }
+
+  .nav__item {
+    padding: 0 1em;
+    text-transform: uppercase;
+  }
+
+  .nav__link {
+    text-decoration: none;
+    color: var(--white-200);
+  }
+
+  .container__image--transparent, .header__menu-hamburger {
+    display: none;
+  }
+
+  .nav__button:checked ~ .menu-list {
+    display: block;
+    width: auto;
+  }
+
+  .nav__button {
+    display: none;
+  }
+}
