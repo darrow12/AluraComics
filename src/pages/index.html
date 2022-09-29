@@ -60,8 +60,14 @@
 
       <div class="container">
         <a href="#"><img src="../../public/images/heart.svg" alt="Meus favoritos" class="container__image container__image--transparent" /></a>
-        <a href="#"><img src="../../public/images/cart.svg" alt="Carrinho de compras" class="container__image" /></a>
-        <a href="#"><img src="../../public/images/user.svg" alt="Meu perfil" class="container__image" /></a>
+        <a href="#" class="container__link">
+          <img src="../../public/images/cart.svg" alt="Carrinho de compras" class="container__image" />
+          <p class="container__text">Minha sacola</p>
+        </a>
+        <a href="#" class="container__link">
+          <img src="../../public/images/user.svg" alt="Meu perfil" class="container__image" />
+          <p class="container__text">Meu perfil</p>
+        </a>
       </div>
     </header>
 
@@ -75,6 +81,7 @@
       <h2 class="carousel__title">Novos lançamentos</h2>
 
       <!-- Slider main container -->
+      <div class="carousel__container">
       <div class="swiper">
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
@@ -119,13 +126,16 @@
           <a href="#" class="buttons__action">Saiba mais</a>
         </div>
       </div>
+    </div>
     </section>
+
     <section class="carousel">
-            <!-- best sellers and author of the month -->
+    <!-- best sellers and author of the month -->
 
       <h2 class="carousel__title">Mais vendidos</h2>
 
       <!-- Slider main container -->
+      <div class="carousel__container">
       <div class="swiper">
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
@@ -171,6 +181,7 @@
           <a href="#" class="buttons__action">Saiba mais</a>
         </div>
       </div>
+    </div>
     </section>
 
     <section class="topics">
