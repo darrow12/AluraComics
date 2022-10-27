@@ -4,7 +4,7 @@
     <img src="https://github.com/darrow12/AluraComics/blob/main/public/images/logo.svg" alt="AluraComics Logo" height="64"/>
   </a>
   
-  <h3>AluraComics</h3>
+  <h3>comics.io</h3>
   <p>Buy and read comics books of your favorites superheroes with AluraComics!</p>
 
   <!-- Readme languages -->
